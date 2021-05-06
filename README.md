@@ -1,21 +1,40 @@
 # vision-camera-image-labeller
 
-VisionCamera Frame Processor Plugin to label images using MLKit Vision
+VisionCamera Frame Processor Plugin to label images using [**MLKit Vision** Image Labeling](https://developers.google.com/ml-kit/vision/image-labeling).
 
 ## Installation
 
 ```sh
 npm install vision-camera-image-labeller
+cd ios && pod install
+```
+
+Add the plugin to your `babel.config.js`:
+
+```js
+module.exports = {
+  plugins: [
+    [
+      'react-native-reanimated/plugin',
+      {
+        globals: ['__labelImage'],
+      },
+    ],
+
+    // ...
 ```
 
 ## Usage
 
 ```js
-import VisionCameraImageLabeller from "vision-camera-image-labeller";
+import { labelImage } from "vision-camera-image-labeller";
 
 // ...
 
-const result = await VisionCameraImageLabeller.multiply(3, 7);
+const frameProcessor = useFrameProcessor((frame) => {
+  'worklet';
+  const labels = labelImage(frame);
+}, []);
 ```
 
 ## Contributing
