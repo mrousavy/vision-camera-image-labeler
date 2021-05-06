@@ -24,6 +24,8 @@ module.exports = {
     // ...
 ```
 
+> Note: You have to restart metro-bundler for changes in the babel.config.js file to take effect.
+
 ## Usage
 
 ```js
