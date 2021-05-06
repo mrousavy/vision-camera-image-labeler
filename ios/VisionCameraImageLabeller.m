@@ -32,25 +32,24 @@
   return labeler;
 }
 
-static inline id exampleObjC___scanQRCodes(CMSampleBufferRef buffer, NSArray* arguments) {
-  CFTimeInterval startTime = CACurrentMediaTime();
-  
+static inline id labelImage(CMSampleBufferRef buffer, NSArray* arguments) {
   MLKVisionImage *image = [[MLKVisionImage alloc] initWithBuffer:buffer];
   image.orientation = UIImageOrientationRight; // <-- TODO: is mirrored?
-  
+
   NSError* error;
   NSArray<MLKImageLabel*>* labels = [[QRCodeFrameProcessorPluginObjC labeler] resultsInImage:image error:&error];
-  
+
   NSMutableArray* results = [NSMutableArray arrayWithCapacity:labels.count];
   for (MLKImageLabel* label in labels) {
-    [results addObject:@{ @"label": label.text, @"confidence": [NSNumber numberWithFloat:label.confidence] }];
+    [results addObject:@{
+      @"label": label.text,
+      @"confidence": [NSNumber numberWithFloat:label.confidence]
+    }];
   }
-  
-  CFTimeInterval elapsedTime = CACurrentMediaTime() - startTime;
-  NSLog(@"Native took: %fms", elapsedTime * 1000.0);
+
   return results;
 }
 
-VISION_EXPORT_FRAME_PROCESSOR(exampleObjC___scanQRCodes)
+VISION_EXPORT_FRAME_PROCESSOR(labelImage)
 
 @end
