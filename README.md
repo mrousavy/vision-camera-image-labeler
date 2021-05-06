@@ -1,3 +1,7 @@
+<div align="right">
+<img align="right" src="https://github.com/cuvent/react-native-vision-camera/blob/main/docs/static/img/frame-processors.gif?raw=true">
+</div>
+
 # vision-camera-image-labeler
 
 [VisionCamera](https://github.com/cuvent/react-native-vision-camera) Frame Processor Plugin to label images using [**MLKit Vision** Image Labeling](https://developers.google.com/ml-kit/vision/image-labeling).
