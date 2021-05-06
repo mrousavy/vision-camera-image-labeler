@@ -1,0 +1,31 @@
+{
+  "name": "vision-camera-image-labeller",
+  "version": "1.0.0",
+  "description": "VisionCamera Frame Processor Plugin to label images using MLKit Vision",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mrousavy/vision-camera-image-labeller.git"
+  },
+  "keywords": [
+    "vision",
+    "camera",
+    "image",
+    "labelling",
+    "frame",
+    "processor",
+    "plugin",
+    "ai",
+    "react",
+    "native"
+  ],
+  "author": "Marc Rousavy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mrousavy/vision-camera-image-labeller/issues"
+  },
+  "homepage": "https://github.com/mrousavy/vision-camera-image-labeller#readme"
+}
