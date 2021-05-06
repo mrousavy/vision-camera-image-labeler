@@ -1,6 +1,6 @@
 # vision-camera-image-labeler
 
-VisionCamera Frame Processor Plugin to label images using [**MLKit Vision** Image Labeling](https://developers.google.com/ml-kit/vision/image-labeling).
+[VisionCamera](https://github.com/cuvent/react-native-vision-camera) Frame Processor Plugin to label images using [**MLKit Vision** Image Labeling](https://developers.google.com/ml-kit/vision/image-labeling).
 
 ## Installation
 
