@@ -1,4 +1,4 @@
-package com.visioncameraimagelabeller;
+package com.visioncameraimagelabeler;
 
 import androidx.annotation.NonNull;
 
@@ -8,11 +8,11 @@ import com.facebook.react.bridge.ReactContextBaseJavaModule;
 import com.facebook.react.bridge.ReactMethod;
 import com.facebook.react.module.annotations.ReactModule;
 
-@ReactModule(name = VisionCameraImageLabellerModule.NAME)
-public class VisionCameraImageLabellerModule extends ReactContextBaseJavaModule {
-    public static final String NAME = "VisionCameraImageLabeller";
+@ReactModule(name = VisionCameraImageLabelerModule.NAME)
+public class VisionCameraImageLabelerModule extends ReactContextBaseJavaModule {
+    public static final String NAME = "VisionCameraImageLabeler";
 
-    public VisionCameraImageLabellerModule(ReactApplicationContext reactContext) {
+    public VisionCameraImageLabelerModule(ReactApplicationContext reactContext) {
         super(reactContext);
     }
 

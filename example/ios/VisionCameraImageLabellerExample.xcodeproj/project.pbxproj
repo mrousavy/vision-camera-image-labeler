@@ -7,18 +7,18 @@
   objects = {
 
 /* Begin PBXBuildFile section */
-    00E356F31AD99517003FC87E /* VisionCameraImageLabellerExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* VisionCameraImageLabellerExampleTests.m */; };
-    09EB680D46FE12310629C227 /* libPods-VisionCameraImageLabellerExample-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B56BA239C969F702C63633C7 /* libPods-VisionCameraImageLabellerExample-tvOS.a */; };
+    00E356F31AD99517003FC87E /* VisionCameraImageLabelerExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* VisionCameraImageLabelerExampleTests.m */; };
+    09EB680D46FE12310629C227 /* libPods-VisionCameraImageLabelerExample-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B56BA239C969F702C63633C7 /* libPods-VisionCameraImageLabelerExample-tvOS.a */; };
     13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
     13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
     13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
     2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
     2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
     2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-    2DCD954D1E0B4F2C00145EB5 /* VisionCameraImageLabellerExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* VisionCameraImageLabellerExampleTests.m */; };
-    3DDF5FAE064BC4BFAB015043 /* libPods-VisionCameraImageLabellerExample-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F6A20A3A2D31400635C17C3 /* libPods-VisionCameraImageLabellerExample-tvOSTests.a */; };
-    4C39C56BAD484C67AA576FFA /* libPods-VisionCameraImageLabellerExample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CA3E69C5B9553B26FBA2DF04 /* libPods-VisionCameraImageLabellerExample.a */; };
-    69AF7E46C79455F135C08478 /* libPods-VisionCameraImageLabellerExample-VisionCameraImageLabellerExampleTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7533C965B72700ED5E109803 /* libPods-VisionCameraImageLabellerExample-VisionCameraImageLabellerExampleTests.a */; };
+    2DCD954D1E0B4F2C00145EB5 /* VisionCameraImageLabelerExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* VisionCameraImageLabelerExampleTests.m */; };
+    3DDF5FAE064BC4BFAB015043 /* libPods-VisionCameraImageLabelerExample-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F6A20A3A2D31400635C17C3 /* libPods-VisionCameraImageLabelerExample-tvOSTests.a */; };
+    4C39C56BAD484C67AA576FFA /* libPods-VisionCameraImageLabelerExample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CA3E69C5B9553B26FBA2DF04 /* libPods-VisionCameraImageLabelerExample.a */; };
+    69AF7E46C79455F135C08478 /* libPods-VisionCameraImageLabelerExample-VisionCameraImageLabelerExampleTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7533C965B72700ED5E109803 /* libPods-VisionCameraImageLabelerExample-VisionCameraImageLabelerExampleTests.a */; };
     81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
@@ -28,45 +28,45 @@
       containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
       proxyType = 1;
       remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
-      remoteInfo = VisionCameraImageLabellerExample;
+      remoteInfo = VisionCameraImageLabelerExample;
     };
     2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */ = {
       isa = PBXContainerItemProxy;
       containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
       proxyType = 1;
       remoteGlobalIDString = 2D02E47A1E0B4A5D006451C7;
-      remoteInfo = "VisionCameraImageLabellerExample-tvOS";
+      remoteInfo = "VisionCameraImageLabelerExample-tvOS";
     };
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
     008F07F21AC5B25A0029DE68 /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
-    00E356EE1AD99517003FC87E /* VisionCameraImageLabellerExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VisionCameraImageLabellerExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+    00E356EE1AD99517003FC87E /* VisionCameraImageLabelerExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VisionCameraImageLabelerExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
     00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-    00E356F21AD99517003FC87E /* VisionCameraImageLabellerExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VisionCameraImageLabellerExampleTests.m; sourceTree = "<group>"; };
-    1172626FD82B50406EC37522 /* Pods-VisionCameraImageLabellerExample-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VisionCameraImageLabellerExample-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-VisionCameraImageLabellerExample-tvOSTests/Pods-VisionCameraImageLabellerExample-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
-    13B07F961A680F5B00A75B9A /* VisionCameraImageLabellerExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VisionCameraImageLabellerExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
-    13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = VisionCameraImageLabellerExample/AppDelegate.h; sourceTree = "<group>"; };
-    13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = VisionCameraImageLabellerExample/AppDelegate.m; sourceTree = "<group>"; };
-    13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = VisionCameraImageLabellerExample/Images.xcassets; sourceTree = "<group>"; };
-    13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = VisionCameraImageLabellerExample/Info.plist; sourceTree = "<group>"; };
-    13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = VisionCameraImageLabellerExample/main.m; sourceTree = "<group>"; };
-    20AB94514737C20DFC4350AE /* Pods-VisionCameraImageLabellerExample-VisionCameraImageLabellerExampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VisionCameraImageLabellerExample-VisionCameraImageLabellerExampleTests.debug.xcconfig"; path = "Target Support Files/Pods-VisionCameraImageLabellerExample-VisionCameraImageLabellerExampleTests/Pods-VisionCameraImageLabellerExample-VisionCameraImageLabellerExampleTests.debug.xcconfig"; sourceTree = "<group>"; };
-    2D02E47B1E0B4A5D006451C7 /* VisionCameraImageLabellerExample-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "VisionCameraImageLabellerExample-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-    2D02E4901E0B4A5D006451C7 /* VisionCameraImageLabellerExample-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "VisionCameraImageLabellerExample-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-    47F7ED3B7971BE374F7B8635 /* Pods-VisionCameraImageLabellerExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VisionCameraImageLabellerExample.debug.xcconfig"; path = "Target Support Files/Pods-VisionCameraImageLabellerExample/Pods-VisionCameraImageLabellerExample.debug.xcconfig"; sourceTree = "<group>"; };
-    6F6A20A3A2D31400635C17C3 /* libPods-VisionCameraImageLabellerExample-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VisionCameraImageLabellerExample-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-    7533C965B72700ED5E109803 /* libPods-VisionCameraImageLabellerExample-VisionCameraImageLabellerExampleTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VisionCameraImageLabellerExample-VisionCameraImageLabellerExampleTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-    81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = VisionCameraImageLabellerExample/LaunchScreen.storyboard; sourceTree = "<group>"; };
-    AE69546072F7DC475F196F4C /* Pods-VisionCameraImageLabellerExample-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VisionCameraImageLabellerExample-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-VisionCameraImageLabellerExample-tvOS/Pods-VisionCameraImageLabellerExample-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
-    B56BA239C969F702C63633C7 /* libPods-VisionCameraImageLabellerExample-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VisionCameraImageLabellerExample-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-    CA3E69C5B9553B26FBA2DF04 /* libPods-VisionCameraImageLabellerExample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VisionCameraImageLabellerExample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-    E00ACF0FDA8BF921659E2F9A /* Pods-VisionCameraImageLabellerExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VisionCameraImageLabellerExample.release.xcconfig"; path = "Target Support Files/Pods-VisionCameraImageLabellerExample/Pods-VisionCameraImageLabellerExample.release.xcconfig"; sourceTree = "<group>"; };
-    E88D904CC5F3CC947B01AB46 /* Pods-VisionCameraImageLabellerExample-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VisionCameraImageLabellerExample-tvOS.release.xcconfig"; path = "Target Support Files/Pods-VisionCameraImageLabellerExample-tvOS/Pods-VisionCameraImageLabellerExample-tvOS.release.xcconfig"; sourceTree = "<group>"; };
-    EC1294380F6AD2F72CA45BA5 /* Pods-VisionCameraImageLabellerExample-VisionCameraImageLabellerExampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VisionCameraImageLabellerExample-VisionCameraImageLabellerExampleTests.release.xcconfig"; path = "Target Support Files/Pods-VisionCameraImageLabellerExample-VisionCameraImageLabellerExampleTests/Pods-VisionCameraImageLabellerExample-VisionCameraImageLabellerExampleTests.release.xcconfig"; sourceTree = "<group>"; };
+    00E356F21AD99517003FC87E /* VisionCameraImageLabelerExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VisionCameraImageLabelerExampleTests.m; sourceTree = "<group>"; };
+    1172626FD82B50406EC37522 /* Pods-VisionCameraImageLabelerExample-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VisionCameraImageLabelerExample-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-VisionCameraImageLabelerExample-tvOSTests/Pods-VisionCameraImageLabelerExample-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+    13B07F961A680F5B00A75B9A /* VisionCameraImageLabelerExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VisionCameraImageLabelerExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+    13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = VisionCameraImageLabelerExample/AppDelegate.h; sourceTree = "<group>"; };
+    13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = VisionCameraImageLabelerExample/AppDelegate.m; sourceTree = "<group>"; };
+    13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = VisionCameraImageLabelerExample/Images.xcassets; sourceTree = "<group>"; };
+    13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = VisionCameraImageLabelerExample/Info.plist; sourceTree = "<group>"; };
+    13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = VisionCameraImageLabelerExample/main.m; sourceTree = "<group>"; };
+    20AB94514737C20DFC4350AE /* Pods-VisionCameraImageLabelerExample-VisionCameraImageLabelerExampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VisionCameraImageLabelerExample-VisionCameraImageLabelerExampleTests.debug.xcconfig"; path = "Target Support Files/Pods-VisionCameraImageLabelerExample-VisionCameraImageLabelerExampleTests/Pods-VisionCameraImageLabelerExample-VisionCameraImageLabelerExampleTests.debug.xcconfig"; sourceTree = "<group>"; };
+    2D02E47B1E0B4A5D006451C7 /* VisionCameraImageLabelerExample-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "VisionCameraImageLabelerExample-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+    2D02E4901E0B4A5D006451C7 /* VisionCameraImageLabelerExample-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "VisionCameraImageLabelerExample-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+    47F7ED3B7971BE374F7B8635 /* Pods-VisionCameraImageLabelerExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VisionCameraImageLabelerExample.debug.xcconfig"; path = "Target Support Files/Pods-VisionCameraImageLabelerExample/Pods-VisionCameraImageLabelerExample.debug.xcconfig"; sourceTree = "<group>"; };
+    6F6A20A3A2D31400635C17C3 /* libPods-VisionCameraImageLabelerExample-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VisionCameraImageLabelerExample-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+    7533C965B72700ED5E109803 /* libPods-VisionCameraImageLabelerExample-VisionCameraImageLabelerExampleTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VisionCameraImageLabelerExample-VisionCameraImageLabelerExampleTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+    81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = VisionCameraImageLabelerExample/LaunchScreen.storyboard; sourceTree = "<group>"; };
+    AE69546072F7DC475F196F4C /* Pods-VisionCameraImageLabelerExample-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VisionCameraImageLabelerExample-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-VisionCameraImageLabelerExample-tvOS/Pods-VisionCameraImageLabelerExample-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+    B56BA239C969F702C63633C7 /* libPods-VisionCameraImageLabelerExample-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VisionCameraImageLabelerExample-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+    CA3E69C5B9553B26FBA2DF04 /* libPods-VisionCameraImageLabelerExample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VisionCameraImageLabelerExample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+    E00ACF0FDA8BF921659E2F9A /* Pods-VisionCameraImageLabelerExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VisionCameraImageLabelerExample.release.xcconfig"; path = "Target Support Files/Pods-VisionCameraImageLabelerExample/Pods-VisionCameraImageLabelerExample.release.xcconfig"; sourceTree = "<group>"; };
+    E88D904CC5F3CC947B01AB46 /* Pods-VisionCameraImageLabelerExample-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VisionCameraImageLabelerExample-tvOS.release.xcconfig"; path = "Target Support Files/Pods-VisionCameraImageLabelerExample-tvOS/Pods-VisionCameraImageLabelerExample-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+    EC1294380F6AD2F72CA45BA5 /* Pods-VisionCameraImageLabelerExample-VisionCameraImageLabelerExampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VisionCameraImageLabelerExample-VisionCameraImageLabelerExampleTests.release.xcconfig"; path = "Target Support Files/Pods-VisionCameraImageLabelerExample-VisionCameraImageLabelerExampleTests/Pods-VisionCameraImageLabelerExample-VisionCameraImageLabelerExampleTests.release.xcconfig"; sourceTree = "<group>"; };
     ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
     ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
-    FFD6887008BEF5F1A6973F45 /* Pods-VisionCameraImageLabellerExample-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VisionCameraImageLabellerExample-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-VisionCameraImageLabellerExample-tvOSTests/Pods-VisionCameraImageLabellerExample-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+    FFD6887008BEF5F1A6973F45 /* Pods-VisionCameraImageLabelerExample-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VisionCameraImageLabelerExample-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-VisionCameraImageLabelerExample-tvOSTests/Pods-VisionCameraImageLabelerExample-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,7 +74,7 @@
       isa = PBXFrameworksBuildPhase;
       buildActionMask = 2147483647;
       files = (
-        69AF7E46C79455F135C08478 /* libPods-VisionCameraImageLabellerExample-VisionCameraImageLabellerExampleTests.a in Frameworks */,
+        69AF7E46C79455F135C08478 /* libPods-VisionCameraImageLabelerExample-VisionCameraImageLabelerExampleTests.a in Frameworks */,
       );
       runOnlyForDeploymentPostprocessing = 0;
     };
@@ -82,7 +82,7 @@
       isa = PBXFrameworksBuildPhase;
       buildActionMask = 2147483647;
       files = (
-        4C39C56BAD484C67AA576FFA /* libPods-VisionCameraImageLabellerExample.a in Frameworks */,
+        4C39C56BAD484C67AA576FFA /* libPods-VisionCameraImageLabelerExample.a in Frameworks */,
       );
       runOnlyForDeploymentPostprocessing = 0;
     };
@@ -90,7 +90,7 @@
       isa = PBXFrameworksBuildPhase;
       buildActionMask = 2147483647;
       files = (
-        09EB680D46FE12310629C227 /* libPods-VisionCameraImageLabellerExample-tvOS.a in Frameworks */,
+        09EB680D46FE12310629C227 /* libPods-VisionCameraImageLabelerExample-tvOS.a in Frameworks */,
       );
       runOnlyForDeploymentPostprocessing = 0;
     };
@@ -98,20 +98,20 @@
       isa = PBXFrameworksBuildPhase;
       buildActionMask = 2147483647;
       files = (
-        3DDF5FAE064BC4BFAB015043 /* libPods-VisionCameraImageLabellerExample-tvOSTests.a in Frameworks */,
+        3DDF5FAE064BC4BFAB015043 /* libPods-VisionCameraImageLabelerExample-tvOSTests.a in Frameworks */,
       );
       runOnlyForDeploymentPostprocessing = 0;
     };
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-    00E356EF1AD99517003FC87E /* VisionCameraImageLabellerExampleTests */ = {
+    00E356EF1AD99517003FC87E /* VisionCameraImageLabelerExampleTests */ = {
       isa = PBXGroup;
       children = (
-        00E356F21AD99517003FC87E /* VisionCameraImageLabellerExampleTests.m */,
+        00E356F21AD99517003FC87E /* VisionCameraImageLabelerExampleTests.m */,
         00E356F01AD99517003FC87E /* Supporting Files */,
       );
-      path = VisionCameraImageLabellerExampleTests;
+      path = VisionCameraImageLabelerExampleTests;
       sourceTree = "<group>";
     };
     00E356F01AD99517003FC87E /* Supporting Files */ = {
@@ -122,7 +122,7 @@
       name = "Supporting Files";
       sourceTree = "<group>";
     };
-    13B07FAE1A68108700A75B9A /* VisionCameraImageLabellerExample */ = {
+    13B07FAE1A68108700A75B9A /* VisionCameraImageLabelerExample */ = {
       isa = PBXGroup;
       children = (
         008F07F21AC5B25A0029DE68 /* main.jsbundle */,
@@ -133,7 +133,7 @@
         81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
         13B07FB71A68108700A75B9A /* main.m */,
       );
-      name = VisionCameraImageLabellerExample;
+      name = VisionCameraImageLabelerExample;
       sourceTree = "<group>";
     };
     2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
@@ -141,10 +141,10 @@
       children = (
         ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
         ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
-        CA3E69C5B9553B26FBA2DF04 /* libPods-VisionCameraImageLabellerExample.a */,
-        7533C965B72700ED5E109803 /* libPods-VisionCameraImageLabellerExample-VisionCameraImageLabellerExampleTests.a */,
-        B56BA239C969F702C63633C7 /* libPods-VisionCameraImageLabellerExample-tvOS.a */,
-        6F6A20A3A2D31400635C17C3 /* libPods-VisionCameraImageLabellerExample-tvOSTests.a */,
+        CA3E69C5B9553B26FBA2DF04 /* libPods-VisionCameraImageLabelerExample.a */,
+        7533C965B72700ED5E109803 /* libPods-VisionCameraImageLabelerExample-VisionCameraImageLabelerExampleTests.a */,
+        B56BA239C969F702C63633C7 /* libPods-VisionCameraImageLabelerExample-tvOS.a */,
+        6F6A20A3A2D31400635C17C3 /* libPods-VisionCameraImageLabelerExample-tvOSTests.a */,
       );
       name = Frameworks;
       sourceTree = "<group>";
@@ -152,14 +152,14 @@
     6B9684456A2045ADE5A6E47E /* Pods */ = {
       isa = PBXGroup;
       children = (
-        47F7ED3B7971BE374F7B8635 /* Pods-VisionCameraImageLabellerExample.debug.xcconfig */,
-        E00ACF0FDA8BF921659E2F9A /* Pods-VisionCameraImageLabellerExample.release.xcconfig */,
-        20AB94514737C20DFC4350AE /* Pods-VisionCameraImageLabellerExample-VisionCameraImageLabellerExampleTests.debug.xcconfig */,
-        EC1294380F6AD2F72CA45BA5 /* Pods-VisionCameraImageLabellerExample-VisionCameraImageLabellerExampleTests.release.xcconfig */,
-        AE69546072F7DC475F196F4C /* Pods-VisionCameraImageLabellerExample-tvOS.debug.xcconfig */,
-        E88D904CC5F3CC947B01AB46 /* Pods-VisionCameraImageLabellerExample-tvOS.release.xcconfig */,
-        FFD6887008BEF5F1A6973F45 /* Pods-VisionCameraImageLabellerExample-tvOSTests.debug.xcconfig */,
-        1172626FD82B50406EC37522 /* Pods-VisionCameraImageLabellerExample-tvOSTests.release.xcconfig */,
+        47F7ED3B7971BE374F7B8635 /* Pods-VisionCameraImageLabelerExample.debug.xcconfig */,
+        E00ACF0FDA8BF921659E2F9A /* Pods-VisionCameraImageLabelerExample.release.xcconfig */,
+        20AB94514737C20DFC4350AE /* Pods-VisionCameraImageLabelerExample-VisionCameraImageLabelerExampleTests.debug.xcconfig */,
+        EC1294380F6AD2F72CA45BA5 /* Pods-VisionCameraImageLabelerExample-VisionCameraImageLabelerExampleTests.release.xcconfig */,
+        AE69546072F7DC475F196F4C /* Pods-VisionCameraImageLabelerExample-tvOS.debug.xcconfig */,
+        E88D904CC5F3CC947B01AB46 /* Pods-VisionCameraImageLabelerExample-tvOS.release.xcconfig */,
+        FFD6887008BEF5F1A6973F45 /* Pods-VisionCameraImageLabelerExample-tvOSTests.debug.xcconfig */,
+        1172626FD82B50406EC37522 /* Pods-VisionCameraImageLabelerExample-tvOSTests.release.xcconfig */,
       );
       name = Pods;
       path = Pods;
@@ -175,9 +175,9 @@
     83CBB9F61A601CBA00E9B192 = {
       isa = PBXGroup;
       children = (
-        13B07FAE1A68108700A75B9A /* VisionCameraImageLabellerExample */,
+        13B07FAE1A68108700A75B9A /* VisionCameraImageLabelerExample */,
         832341AE1AAA6A7D00B99B32 /* Libraries */,
-        00E356EF1AD99517003FC87E /* VisionCameraImageLabellerExampleTests */,
+        00E356EF1AD99517003FC87E /* VisionCameraImageLabelerExampleTests */,
         83CBBA001A601CBA00E9B192 /* Products */,
         2D16E6871FA4F8E400B85C8A /* Frameworks */,
         6B9684456A2045ADE5A6E47E /* Pods */,
@@ -190,10 +190,10 @@
     83CBBA001A601CBA00E9B192 /* Products */ = {
       isa = PBXGroup;
       children = (
-        13B07F961A680F5B00A75B9A /* VisionCameraImageLabellerExample.app */,
-        00E356EE1AD99517003FC87E /* VisionCameraImageLabellerExampleTests.xctest */,
-        2D02E47B1E0B4A5D006451C7 /* VisionCameraImageLabellerExample-tvOS.app */,
-        2D02E4901E0B4A5D006451C7 /* VisionCameraImageLabellerExample-tvOSTests.xctest */,
+        13B07F961A680F5B00A75B9A /* VisionCameraImageLabelerExample.app */,
+        00E356EE1AD99517003FC87E /* VisionCameraImageLabelerExampleTests.xctest */,
+        2D02E47B1E0B4A5D006451C7 /* VisionCameraImageLabelerExample-tvOS.app */,
+        2D02E4901E0B4A5D006451C7 /* VisionCameraImageLabelerExample-tvOSTests.xctest */,
       );
       name = Products;
       sourceTree = "<group>";
@@ -201,9 +201,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-    00E356ED1AD99517003FC87E /* VisionCameraImageLabellerExampleTests */ = {
+    00E356ED1AD99517003FC87E /* VisionCameraImageLabelerExampleTests */ = {
       isa = PBXNativeTarget;
-      buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "VisionCameraImageLabellerExampleTests" */;
+      buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "VisionCameraImageLabelerExampleTests" */;
       buildPhases = (
         3BD00D8DB48E257517D6B951 /* [CP] Check Pods Manifest.lock */,
         00E356EA1AD99517003FC87E /* Sources */,
@@ -216,14 +216,14 @@
       dependencies = (
         00E356F51AD99517003FC87E /* PBXTargetDependency */,
       );
-      name = VisionCameraImageLabellerExampleTests;
-      productName = VisionCameraImageLabellerExampleTests;
-      productReference = 00E356EE1AD99517003FC87E /* VisionCameraImageLabellerExampleTests.xctest */;
+      name = VisionCameraImageLabelerExampleTests;
+      productName = VisionCameraImageLabelerExampleTests;
+      productReference = 00E356EE1AD99517003FC87E /* VisionCameraImageLabelerExampleTests.xctest */;
       productType = "com.apple.product-type.bundle.unit-test";
     };
-    13B07F861A680F5B00A75B9A /* VisionCameraImageLabellerExample */ = {
+    13B07F861A680F5B00A75B9A /* VisionCameraImageLabelerExample */ = {
       isa = PBXNativeTarget;
-      buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "VisionCameraImageLabellerExample" */;
+      buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "VisionCameraImageLabelerExample" */;
       buildPhases = (
         4F0A6FC082772762E3E4C96C /* [CP] Check Pods Manifest.lock */,
         FD10A7F022414F080027D42C /* Start Packager */,
@@ -237,14 +237,14 @@
       );
       dependencies = (
       );
-      name = VisionCameraImageLabellerExample;
-      productName = VisionCameraImageLabellerExample;
-      productReference = 13B07F961A680F5B00A75B9A /* VisionCameraImageLabellerExample.app */;
+      name = VisionCameraImageLabelerExample;
+      productName = VisionCameraImageLabelerExample;
+      productReference = 13B07F961A680F5B00A75B9A /* VisionCameraImageLabelerExample.app */;
       productType = "com.apple.product-type.application";
     };
-    2D02E47A1E0B4A5D006451C7 /* VisionCameraImageLabellerExample-tvOS */ = {
+    2D02E47A1E0B4A5D006451C7 /* VisionCameraImageLabelerExample-tvOS */ = {
       isa = PBXNativeTarget;
-      buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "VisionCameraImageLabellerExample-tvOS" */;
+      buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "VisionCameraImageLabelerExample-tvOS" */;
       buildPhases = (
         87811D0F8FEC6FC2E70EDF88 /* [CP] Check Pods Manifest.lock */,
         FD10A7F122414F3F0027D42C /* Start Packager */,
@@ -257,14 +257,14 @@
       );
       dependencies = (
       );
-      name = "VisionCameraImageLabellerExample-tvOS";
-      productName = "VisionCameraImageLabellerExample-tvOS";
-      productReference = 2D02E47B1E0B4A5D006451C7 /* VisionCameraImageLabellerExample-tvOS.app */;
+      name = "VisionCameraImageLabelerExample-tvOS";
+      productName = "VisionCameraImageLabelerExample-tvOS";
+      productReference = 2D02E47B1E0B4A5D006451C7 /* VisionCameraImageLabelerExample-tvOS.app */;
       productType = "com.apple.product-type.application";
     };
-    2D02E48F1E0B4A5D006451C7 /* VisionCameraImageLabellerExample-tvOSTests */ = {
+    2D02E48F1E0B4A5D006451C7 /* VisionCameraImageLabelerExample-tvOSTests */ = {
       isa = PBXNativeTarget;
-      buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "VisionCameraImageLabellerExample-tvOSTests" */;
+      buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "VisionCameraImageLabelerExample-tvOSTests" */;
       buildPhases = (
         A1191D9E34FEA625352E7BA9 /* [CP] Check Pods Manifest.lock */,
         2D02E48C1E0B4A5D006451C7 /* Sources */,
@@ -276,9 +276,9 @@
       dependencies = (
         2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */,
       );
-      name = "VisionCameraImageLabellerExample-tvOSTests";
-      productName = "VisionCameraImageLabellerExample-tvOSTests";
-      productReference = 2D02E4901E0B4A5D006451C7 /* VisionCameraImageLabellerExample-tvOSTests.xctest */;
+      name = "VisionCameraImageLabelerExample-tvOSTests";
+      productName = "VisionCameraImageLabelerExample-tvOSTests";
+      productReference = 2D02E4901E0B4A5D006451C7 /* VisionCameraImageLabelerExample-tvOSTests.xctest */;
       productType = "com.apple.product-type.bundle.unit-test";
     };
 /* End PBXNativeTarget section */
@@ -307,7 +307,7 @@
           };
         };
       };
-      buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "VisionCameraImageLabellerExample" */;
+      buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "VisionCameraImageLabelerExample" */;
       compatibilityVersion = "Xcode 3.2";
       developmentRegion = en;
       hasScannedForEncodings = 0;
@@ -320,10 +320,10 @@
       projectDirPath = "";
       projectRoot = "";
       targets = (
-        13B07F861A680F5B00A75B9A /* VisionCameraImageLabellerExample */,
-        00E356ED1AD99517003FC87E /* VisionCameraImageLabellerExampleTests */,
-        2D02E47A1E0B4A5D006451C7 /* VisionCameraImageLabellerExample-tvOS */,
-        2D02E48F1E0B4A5D006451C7 /* VisionCameraImageLabellerExample-tvOSTests */,
+        13B07F861A680F5B00A75B9A /* VisionCameraImageLabelerExample */,
+        00E356ED1AD99517003FC87E /* VisionCameraImageLabelerExampleTests */,
+        2D02E47A1E0B4A5D006451C7 /* VisionCameraImageLabelerExample-tvOS */,
+        2D02E48F1E0B4A5D006451C7 /* VisionCameraImageLabelerExample-tvOSTests */,
       );
     };
 /* End PBXProject section */
@@ -406,7 +406,7 @@
       outputFileListPaths = (
       );
       outputPaths = (
-        "$(DERIVED_FILE_DIR)/Pods-VisionCameraImageLabellerExample-VisionCameraImageLabellerExampleTests-checkManifestLockResult.txt",
+        "$(DERIVED_FILE_DIR)/Pods-VisionCameraImageLabelerExample-VisionCameraImageLabelerExampleTests-checkManifestLockResult.txt",
       );
       runOnlyForDeploymentPostprocessing = 0;
       shellPath = /bin/sh;
@@ -419,7 +419,7 @@
       files = (
       );
       inputPaths = (
-        "${PODS_ROOT}/Target Support Files/Pods-VisionCameraImageLabellerExample-VisionCameraImageLabellerExampleTests/Pods-VisionCameraImageLabellerExample-VisionCameraImageLabellerExampleTests-resources.sh",
+        "${PODS_ROOT}/Target Support Files/Pods-VisionCameraImageLabelerExample-VisionCameraImageLabelerExampleTests/Pods-VisionCameraImageLabelerExample-VisionCameraImageLabelerExampleTests-resources.sh",
         "${PODS_CONFIGURATION_BUILD_DIR}/React-Core/AccessibilityResources.bundle",
       );
       name = "[CP] Copy Pods Resources";
@@ -428,7 +428,7 @@
       );
       runOnlyForDeploymentPostprocessing = 0;
       shellPath = /bin/sh;
-      shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-VisionCameraImageLabellerExample-VisionCameraImageLabellerExampleTests/Pods-VisionCameraImageLabellerExample-VisionCameraImageLabellerExampleTests-resources.sh\"\n";
+      shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-VisionCameraImageLabelerExample-VisionCameraImageLabelerExampleTests/Pods-VisionCameraImageLabelerExample-VisionCameraImageLabelerExampleTests-resources.sh\"\n";
       showEnvVarsInLog = 0;
     };
     4F0A6FC082772762E3E4C96C /* [CP] Check Pods Manifest.lock */ = {
@@ -446,7 +446,7 @@
       outputFileListPaths = (
       );
       outputPaths = (
-        "$(DERIVED_FILE_DIR)/Pods-VisionCameraImageLabellerExample-checkManifestLockResult.txt",
+        "$(DERIVED_FILE_DIR)/Pods-VisionCameraImageLabelerExample-checkManifestLockResult.txt",
       );
       runOnlyForDeploymentPostprocessing = 0;
       shellPath = /bin/sh;
@@ -468,7 +468,7 @@
       outputFileListPaths = (
       );
       outputPaths = (
-        "$(DERIVED_FILE_DIR)/Pods-VisionCameraImageLabellerExample-tvOS-checkManifestLockResult.txt",
+        "$(DERIVED_FILE_DIR)/Pods-VisionCameraImageLabelerExample-tvOS-checkManifestLockResult.txt",
       );
       runOnlyForDeploymentPostprocessing = 0;
       shellPath = /bin/sh;
@@ -490,7 +490,7 @@
       outputFileListPaths = (
       );
       outputPaths = (
-        "$(DERIVED_FILE_DIR)/Pods-VisionCameraImageLabellerExample-tvOSTests-checkManifestLockResult.txt",
+        "$(DERIVED_FILE_DIR)/Pods-VisionCameraImageLabelerExample-tvOSTests-checkManifestLockResult.txt",
       );
       runOnlyForDeploymentPostprocessing = 0;
       shellPath = /bin/sh;
@@ -503,7 +503,7 @@
       files = (
       );
       inputPaths = (
-        "${PODS_ROOT}/Target Support Files/Pods-VisionCameraImageLabellerExample/Pods-VisionCameraImageLabellerExample-resources.sh",
+        "${PODS_ROOT}/Target Support Files/Pods-VisionCameraImageLabelerExample/Pods-VisionCameraImageLabelerExample-resources.sh",
         "${PODS_CONFIGURATION_BUILD_DIR}/React-Core/AccessibilityResources.bundle",
       );
       name = "[CP] Copy Pods Resources";
@@ -512,7 +512,7 @@
       );
       runOnlyForDeploymentPostprocessing = 0;
       shellPath = /bin/sh;
-      shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-VisionCameraImageLabellerExample/Pods-VisionCameraImageLabellerExample-resources.sh\"\n";
+      shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-VisionCameraImageLabelerExample/Pods-VisionCameraImageLabelerExample-resources.sh\"\n";
       showEnvVarsInLog = 0;
     };
     FD10A7F022414F080027D42C /* Start Packager */ = {
@@ -560,7 +560,7 @@
       isa = PBXSourcesBuildPhase;
       buildActionMask = 2147483647;
       files = (
-        00E356F31AD99517003FC87E /* VisionCameraImageLabellerExampleTests.m in Sources */,
+        00E356F31AD99517003FC87E /* VisionCameraImageLabelerExampleTests.m in Sources */,
       );
       runOnlyForDeploymentPostprocessing = 0;
     };
@@ -586,7 +586,7 @@
       isa = PBXSourcesBuildPhase;
       buildActionMask = 2147483647;
       files = (
-        2DCD954D1E0B4F2C00145EB5 /* VisionCameraImageLabellerExampleTests.m in Sources */,
+        2DCD954D1E0B4F2C00145EB5 /* VisionCameraImageLabelerExampleTests.m in Sources */,
       );
       runOnlyForDeploymentPostprocessing = 0;
     };
@@ -595,12 +595,12 @@
 /* Begin PBXTargetDependency section */
     00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
       isa = PBXTargetDependency;
-      target = 13B07F861A680F5B00A75B9A /* VisionCameraImageLabellerExample */;
+      target = 13B07F861A680F5B00A75B9A /* VisionCameraImageLabelerExample */;
       targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
     };
     2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */ = {
       isa = PBXTargetDependency;
-      target = 2D02E47A1E0B4A5D006451C7 /* VisionCameraImageLabellerExample-tvOS */;
+      target = 2D02E47A1E0B4A5D006451C7 /* VisionCameraImageLabelerExample-tvOS */;
       targetProxy = 2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */;
     };
 /* End PBXTargetDependency section */
@@ -608,14 +608,14 @@
 /* Begin XCBuildConfiguration section */
     00E356F61AD99517003FC87E /* Debug */ = {
       isa = XCBuildConfiguration;
-      baseConfigurationReference = 20AB94514737C20DFC4350AE /* Pods-VisionCameraImageLabellerExample-VisionCameraImageLabellerExampleTests.debug.xcconfig */;
+      baseConfigurationReference = 20AB94514737C20DFC4350AE /* Pods-VisionCameraImageLabelerExample-VisionCameraImageLabelerExampleTests.debug.xcconfig */;
       buildSettings = {
         BUNDLE_LOADER = "$(TEST_HOST)";
         GCC_PREPROCESSOR_DEFINITIONS = (
           "DEBUG=1",
           "$(inherited)",
         );
-        INFOPLIST_FILE = VisionCameraImageLabellerExampleTests/Info.plist;
+        INFOPLIST_FILE = VisionCameraImageLabelerExampleTests/Info.plist;
         IPHONEOS_DEPLOYMENT_TARGET = 10.0;
         LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
         OTHER_LDFLAGS = (
@@ -623,19 +623,19 @@
           "-lc++",
           "$(inherited)",
         );
-        PRODUCT_BUNDLE_IDENTIFIER = "com.example.visioncameraimagelabeller";
+        PRODUCT_BUNDLE_IDENTIFIER = "com.example.visioncameraimagelabeler";
         PRODUCT_NAME = "$(TARGET_NAME)";
-        TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VisionCameraImageLabellerExample.app/VisionCameraImageLabellerExample";
+        TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VisionCameraImageLabelerExample.app/VisionCameraImageLabelerExample";
       };
       name = Debug;
     };
     00E356F71AD99517003FC87E /* Release */ = {
       isa = XCBuildConfiguration;
-      baseConfigurationReference = EC1294380F6AD2F72CA45BA5 /* Pods-VisionCameraImageLabellerExample-VisionCameraImageLabellerExampleTests.release.xcconfig */;
+      baseConfigurationReference = EC1294380F6AD2F72CA45BA5 /* Pods-VisionCameraImageLabelerExample-VisionCameraImageLabelerExampleTests.release.xcconfig */;
       buildSettings = {
         BUNDLE_LOADER = "$(TEST_HOST)";
         COPY_PHASE_STRIP = NO;
-        INFOPLIST_FILE = VisionCameraImageLabellerExampleTests/Info.plist;
+        INFOPLIST_FILE = VisionCameraImageLabelerExampleTests/Info.plist;
         IPHONEOS_DEPLOYMENT_TARGET = 10.0;
         LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
         OTHER_LDFLAGS = (
@@ -643,29 +643,29 @@
           "-lc++",
           "$(inherited)",
         );
-        PRODUCT_BUNDLE_IDENTIFIER = "com.example.visioncameraimagelabeller";
+        PRODUCT_BUNDLE_IDENTIFIER = "com.example.visioncameraimagelabeler";
         PRODUCT_NAME = "$(TARGET_NAME)";
-        TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VisionCameraImageLabellerExample.app/VisionCameraImageLabellerExample";
+        TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VisionCameraImageLabelerExample.app/VisionCameraImageLabelerExample";
       };
       name = Release;
     };
     13B07F941A680F5B00A75B9A /* Debug */ = {
       isa = XCBuildConfiguration;
-      baseConfigurationReference = 47F7ED3B7971BE374F7B8635 /* Pods-VisionCameraImageLabellerExample.debug.xcconfig */;
+      baseConfigurationReference = 47F7ED3B7971BE374F7B8635 /* Pods-VisionCameraImageLabelerExample.debug.xcconfig */;
       buildSettings = {
         ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
         CLANG_ENABLE_MODULES = YES;
         CURRENT_PROJECT_VERSION = 1;
         ENABLE_BITCODE = NO;
-        INFOPLIST_FILE = VisionCameraImageLabellerExample/Info.plist;
+        INFOPLIST_FILE = VisionCameraImageLabelerExample/Info.plist;
         LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
         OTHER_LDFLAGS = (
           "$(inherited)",
           "-ObjC",
           "-lc++",
         );
-        PRODUCT_BUNDLE_IDENTIFIER = "com.example.visioncameraimagelabeller";
-        PRODUCT_NAME = VisionCameraImageLabellerExample;
+        PRODUCT_BUNDLE_IDENTIFIER = "com.example.visioncameraimagelabeler";
+        PRODUCT_NAME = VisionCameraImageLabelerExample;
         SWIFT_OPTIMIZATION_LEVEL = "-Onone";
         SWIFT_VERSION = 5.0;
         VERSIONING_SYSTEM = "apple-generic";
@@ -674,20 +674,20 @@
     };
     13B07F951A680F5B00A75B9A /* Release */ = {
       isa = XCBuildConfiguration;
-      baseConfigurationReference = E00ACF0FDA8BF921659E2F9A /* Pods-VisionCameraImageLabellerExample.release.xcconfig */;
+      baseConfigurationReference = E00ACF0FDA8BF921659E2F9A /* Pods-VisionCameraImageLabelerExample.release.xcconfig */;
       buildSettings = {
         ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
         CLANG_ENABLE_MODULES = YES;
         CURRENT_PROJECT_VERSION = 1;
-        INFOPLIST_FILE = VisionCameraImageLabellerExample/Info.plist;
+        INFOPLIST_FILE = VisionCameraImageLabelerExample/Info.plist;
         LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
         OTHER_LDFLAGS = (
           "$(inherited)",
           "-ObjC",
           "-lc++",
         );
-        PRODUCT_BUNDLE_IDENTIFIER = "com.example.visioncameraimagelabeller";
-        PRODUCT_NAME = VisionCameraImageLabellerExample;
+        PRODUCT_BUNDLE_IDENTIFIER = "com.example.visioncameraimagelabeler";
+        PRODUCT_NAME = VisionCameraImageLabelerExample;
         SWIFT_VERSION = 5.0;
         VERSIONING_SYSTEM = "apple-generic";
       };
@@ -695,7 +695,7 @@
     };
     2D02E4971E0B4A5E006451C7 /* Debug */ = {
       isa = XCBuildConfiguration;
-      baseConfigurationReference = AE69546072F7DC475F196F4C /* Pods-VisionCameraImageLabellerExample-tvOS.debug.xcconfig */;
+      baseConfigurationReference = AE69546072F7DC475F196F4C /* Pods-VisionCameraImageLabelerExample-tvOS.debug.xcconfig */;
       buildSettings = {
         ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
         ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -706,14 +706,14 @@
         DEBUG_INFORMATION_FORMAT = dwarf;
         ENABLE_TESTABILITY = YES;
         GCC_NO_COMMON_BLOCKS = YES;
-        INFOPLIST_FILE = "VisionCameraImageLabellerExample-tvOS/Info.plist";
+        INFOPLIST_FILE = "VisionCameraImageLabelerExample-tvOS/Info.plist";
         LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
         OTHER_LDFLAGS = (
           "$(inherited)",
           "-ObjC",
           "-lc++",
         );
-        PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.VisionCameraImageLabellerExample-tvOS";
+        PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.VisionCameraImageLabelerExample-tvOS";
         PRODUCT_NAME = "$(TARGET_NAME)";
         SDKROOT = appletvos;
         TARGETED_DEVICE_FAMILY = 3;
@@ -723,7 +723,7 @@
     };
     2D02E4981E0B4A5E006451C7 /* Release */ = {
       isa = XCBuildConfiguration;
-      baseConfigurationReference = E88D904CC5F3CC947B01AB46 /* Pods-VisionCameraImageLabellerExample-tvOS.release.xcconfig */;
+      baseConfigurationReference = E88D904CC5F3CC947B01AB46 /* Pods-VisionCameraImageLabelerExample-tvOS.release.xcconfig */;
       buildSettings = {
         ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
         ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -734,14 +734,14 @@
         COPY_PHASE_STRIP = NO;
         DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
         GCC_NO_COMMON_BLOCKS = YES;
-        INFOPLIST_FILE = "VisionCameraImageLabellerExample-tvOS/Info.plist";
+        INFOPLIST_FILE = "VisionCameraImageLabelerExample-tvOS/Info.plist";
         LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
         OTHER_LDFLAGS = (
           "$(inherited)",
           "-ObjC",
           "-lc++",
         );
-        PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.VisionCameraImageLabellerExample-tvOS";
+        PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.VisionCameraImageLabelerExample-tvOS";
         PRODUCT_NAME = "$(TARGET_NAME)";
         SDKROOT = appletvos;
         TARGETED_DEVICE_FAMILY = 3;
@@ -751,7 +751,7 @@
     };
     2D02E4991E0B4A5E006451C7 /* Debug */ = {
       isa = XCBuildConfiguration;
-      baseConfigurationReference = FFD6887008BEF5F1A6973F45 /* Pods-VisionCameraImageLabellerExample-tvOSTests.debug.xcconfig */;
+      baseConfigurationReference = FFD6887008BEF5F1A6973F45 /* Pods-VisionCameraImageLabelerExample-tvOSTests.debug.xcconfig */;
       buildSettings = {
         BUNDLE_LOADER = "$(TEST_HOST)";
         CLANG_ANALYZER_NONNULL = YES;
@@ -761,24 +761,24 @@
         DEBUG_INFORMATION_FORMAT = dwarf;
         ENABLE_TESTABILITY = YES;
         GCC_NO_COMMON_BLOCKS = YES;
-        INFOPLIST_FILE = "VisionCameraImageLabellerExample-tvOSTests/Info.plist";
+        INFOPLIST_FILE = "VisionCameraImageLabelerExample-tvOSTests/Info.plist";
         LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
         OTHER_LDFLAGS = (
           "$(inherited)",
           "-ObjC",
           "-lc++",
         );
-        PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.VisionCameraImageLabellerExample-tvOSTests";
+        PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.VisionCameraImageLabelerExample-tvOSTests";
         PRODUCT_NAME = "$(TARGET_NAME)";
         SDKROOT = appletvos;
-        TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VisionCameraImageLabellerExample-tvOS.app/VisionCameraImageLabellerExample-tvOS";
+        TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VisionCameraImageLabelerExample-tvOS.app/VisionCameraImageLabelerExample-tvOS";
         TVOS_DEPLOYMENT_TARGET = 10.1;
       };
       name = Debug;
     };
     2D02E49A1E0B4A5E006451C7 /* Release */ = {
       isa = XCBuildConfiguration;
-      baseConfigurationReference = 1172626FD82B50406EC37522 /* Pods-VisionCameraImageLabellerExample-tvOSTests.release.xcconfig */;
+      baseConfigurationReference = 1172626FD82B50406EC37522 /* Pods-VisionCameraImageLabelerExample-tvOSTests.release.xcconfig */;
       buildSettings = {
         BUNDLE_LOADER = "$(TEST_HOST)";
         CLANG_ANALYZER_NONNULL = YES;
@@ -788,17 +788,17 @@
         COPY_PHASE_STRIP = NO;
         DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
         GCC_NO_COMMON_BLOCKS = YES;
-        INFOPLIST_FILE = "VisionCameraImageLabellerExample-tvOSTests/Info.plist";
+        INFOPLIST_FILE = "VisionCameraImageLabelerExample-tvOSTests/Info.plist";
         LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
         OTHER_LDFLAGS = (
           "$(inherited)",
           "-ObjC",
           "-lc++",
         );
-        PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.VisionCameraImageLabellerExample-tvOSTests";
+        PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.VisionCameraImageLabelerExample-tvOSTests";
         PRODUCT_NAME = "$(TARGET_NAME)";
         SDKROOT = appletvos;
-        TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VisionCameraImageLabellerExample-tvOS.app/VisionCameraImageLabellerExample-tvOS";
+        TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VisionCameraImageLabelerExample-tvOS.app/VisionCameraImageLabelerExample-tvOS";
         TVOS_DEPLOYMENT_TARGET = 10.1;
       };
       name = Release;
@@ -919,7 +919,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-    00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "VisionCameraImageLabellerExampleTests" */ = {
+    00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "VisionCameraImageLabelerExampleTests" */ = {
       isa = XCConfigurationList;
       buildConfigurations = (
         00E356F61AD99517003FC87E /* Debug */,
@@ -928,7 +928,7 @@
       defaultConfigurationIsVisible = 0;
       defaultConfigurationName = Release;
     };
-    13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "VisionCameraImageLabellerExample" */ = {
+    13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "VisionCameraImageLabelerExample" */ = {
       isa = XCConfigurationList;
       buildConfigurations = (
         13B07F941A680F5B00A75B9A /* Debug */,
@@ -937,7 +937,7 @@
       defaultConfigurationIsVisible = 0;
       defaultConfigurationName = Release;
     };
-    2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "VisionCameraImageLabellerExample-tvOS" */ = {
+    2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "VisionCameraImageLabelerExample-tvOS" */ = {
       isa = XCConfigurationList;
       buildConfigurations = (
         2D02E4971E0B4A5E006451C7 /* Debug */,
@@ -946,7 +946,7 @@
       defaultConfigurationIsVisible = 0;
       defaultConfigurationName = Release;
     };
-    2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "VisionCameraImageLabellerExample-tvOSTests" */ = {
+    2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "VisionCameraImageLabelerExample-tvOSTests" */ = {
       isa = XCConfigurationList;
       buildConfigurations = (
         2D02E4991E0B4A5E006451C7 /* Debug */,
@@ -955,7 +955,7 @@
       defaultConfigurationIsVisible = 0;
       defaultConfigurationName = Release;
     };
-    83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "VisionCameraImageLabellerExample" */ = {
+    83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "VisionCameraImageLabelerExample" */ = {
       isa = XCConfigurationList;
       buildConfigurations = (
         83CBBA201A601CBA00E9B192 /* Debug */,

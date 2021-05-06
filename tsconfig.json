@@ -2,7 +2,7 @@
   "compilerOptions": {
     "baseUrl": "./",
     "paths": {
-      "vision-camera-image-labeller": ["./src/index"]
+      "vision-camera-image-labeler": ["./src/index"]
     },
     "allowUnreachableCode": false,
     "allowUnusedLabels": false,

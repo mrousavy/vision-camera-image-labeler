@@ -1,6 +1,6 @@
 {
-  "name": "vision-camera-image-labeller-example",
-  "description": "Example app for vision-camera-image-labeller",
+  "name": "vision-camera-image-labeler-example",
+  "description": "Example app for vision-camera-image-labeler",
   "version": "0.0.1",
   "private": true,
   "scripts": {

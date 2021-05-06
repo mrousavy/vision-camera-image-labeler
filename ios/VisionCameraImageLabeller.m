@@ -1,5 +1,5 @@
 //
-//  VisionCameraImageLabeller.m
+//  VisionCameraImageLabeler.m
 //  VisionCameraExample
 //
 //  Created by Marc Rousavy on 06.05.21.

@@ -1,11 +1,11 @@
-# vision-camera-image-labeller
+# vision-camera-image-labeler
 
 VisionCamera Frame Processor Plugin to label images using [**MLKit Vision** Image Labeling](https://developers.google.com/ml-kit/vision/image-labeling).
 
 ## Installation
 
 ```sh
-npm install vision-camera-image-labeller
+npm install vision-camera-image-labeler
 cd ios && pod install
 ```
 
@@ -29,7 +29,7 @@ module.exports = {
 ## Usage
 
 ```js
-import { labelImage } from "vision-camera-image-labeller";
+import { labelImage } from "vision-camera-image-labeler";
 
 // ...
 

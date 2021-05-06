@@ -1,4 +1,4 @@
-package com.visioncameraimagelabeller;
+package com.visioncameraimagelabeler;
 
 import androidx.annotation.NonNull;
 
@@ -11,12 +11,12 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-public class VisionCameraImageLabellerPackage implements ReactPackage {
+public class VisionCameraImageLabelerPackage implements ReactPackage {
     @NonNull
     @Override
     public List<NativeModule> createNativeModules(@NonNull ReactApplicationContext reactContext) {
         List<NativeModule> modules = new ArrayList<>();
-        modules.add(new VisionCameraImageLabellerModule(reactContext));
+        modules.add(new VisionCameraImageLabelerModule(reactContext));
         return modules;
     }
 

@@ -1,5 +1,5 @@
 {
-  "name": "vision-camera-image-labeller",
+  "name": "vision-camera-image-labeler",
   "version": "0.1.0",
   "description": "VisionCamera Frame Processor Plugin to label images using MLKit Vision",
   "main": "lib/commonjs/index",
@@ -13,7 +13,7 @@
     "android",
     "ios",
     "cpp",
-    "vision-camera-image-labeller.podspec",
+    "vision-camera-image-labeler.podspec",
     "!lib/typescript/example",
     "!android/build",
     "!ios/build",
@@ -36,13 +36,13 @@
     "ios",
     "android"
   ],
-  "repository": "https://github.com/mrousavy/vision-camera-image-labeller",
+  "repository": "https://github.com/mrousavy/vision-camera-image-labeler",
   "author": "Marc Rousavy <marcrousavy@hotmail.com> (https://github.com/mrousavy)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/mrousavy/vision-camera-image-labeller/issues"
+    "url": "https://github.com/mrousavy/vision-camera-image-labeler/issues"
   },
-  "homepage": "https://github.com/mrousavy/vision-camera-image-labeller#readme",
+  "homepage": "https://github.com/mrousavy/vision-camera-image-labeler#readme",
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
   },
