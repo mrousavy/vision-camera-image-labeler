@@ -1,18 +1,48 @@
 import * as React from 'react';
 
-import { StyleSheet, View, Text } from 'react-native';
-import VisionCameraImageLabeler from 'vision-camera-image-labeler';
+import {
+  StyleSheet,
+  View,
+  Text,
+  unstable_enableLogBox,
+  ActivityIndicator,
+} from 'react-native';
+import {
+  useCameraDevices,
+  useFrameProcessor,
+} from 'react-native-vision-camera';
+import { Camera } from 'react-native-vision-camera';
+import { labelImage } from 'vision-camera-image-labeler';
 
 export default function App() {
-  const [result, setResult] = React.useState<number | undefined>();
+  const [hasPermission, setHasPermission] = React.useState(false);
+  const device = useCameraDevices('wide-angle-camera');
 
   React.useEffect(() => {
-    VisionCameraImageLabeler.multiply(3, 7).then(setResult);
+    (async () => {
+      const status = await Camera.requestCameraPermission();
+      setHasPermission(status === 'authorized');
+    })();
+  }, []);
+
+  const frameProcessor = useFrameProcessor((frame) => {
+    const labels = labelImage(frame);
+    _log(`Labels: ${labels.join(', ')}`);
   }, []);
 
   return (
     <View style={styles.container}>
-      <Text>Result: {result}</Text>
+      {device != null && hasPermission ? (
+        <Camera
+          style={StyleSheet.absoluteFill}
+          device={device}
+          isActive={true}
+          frameProcessor={frameProcessor}
+          frameProcessorFps={5}
+        />
+      ) : (
+        <ActivityIndicator size="large" color="white" />
+      )}
     </View>
   );
 }
