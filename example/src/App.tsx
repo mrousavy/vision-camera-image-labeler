@@ -1,12 +1,6 @@
 import * as React from 'react';
 
-import {
-  StyleSheet,
-  View,
-  Text,
-  unstable_enableLogBox,
-  ActivityIndicator,
-} from 'react-native';
+import { StyleSheet, View, ActivityIndicator } from 'react-native';
 import {
   useCameraDevices,
   useFrameProcessor,
@@ -16,7 +10,8 @@ import { labelImage } from 'vision-camera-image-labeler';
 
 export default function App() {
   const [hasPermission, setHasPermission] = React.useState(false);
-  const device = useCameraDevices('wide-angle-camera');
+  const devices = useCameraDevices('wide-angle-camera');
+  const device = devices.back;
 
   React.useEffect(() => {
     (async () => {
