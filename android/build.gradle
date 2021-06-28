@@ -58,4 +58,5 @@ dependencies {
     implementation "com.facebook.react:react-native:+"  // From node_modules
   api fileTree(dir: '../node_modules/react-native-vision-camera/android', include: ['*-hermes.aar'])
   implementation "androidx.camera:camera-core:1.1.0-alpha05"
+  implementation 'com.google.mlkit:image-labeling:17.0.4'
 }
