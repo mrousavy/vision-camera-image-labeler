@@ -44,24 +44,26 @@ android {
 }
 
 repositories {
-    mavenLocal()
-    maven {
-      // All of React Native (JS, Obj-C sources, Android binaries) is installed from npm
-      url("$rootDir/../node_modules/react-native/android")
-    }
-    maven {
-      // VisionCamera is installed from npm
-      url("$rootDir/../node_modules/react-native-vision-camera/android")
-    }
-    google()
-    jcenter()
+  mavenLocal()
+  maven {
+    // All of React Native (JS, Obj-C sources, Android binaries) is installed from npm
+    url("$rootDir/../node_modules/react-native/android")
+  }
+  maven {
+    // VisionCamera is distributed through npm
+    url("$rootDir/../node_modules/react-native-vision-camera/android")
+  }
+  google()
+  jcenter()
 }
 
 dependencies {
-    //noinspection GradleDynamicVersion
-    implementation "com.facebook.react:react-native:+"  // From node_modules
+  //noinspection GradleDynamicVersion
+  implementation "com.facebook.react:react-native:+"  // From node_modules
+  //noinspection GradleDynamicVersion
+  implementation "com.mrousavy.camera:react-native-vision-camera:+" // VisionCamera from node_modules
 
-  implementation "com.mrousavy.camera:react-native-vision-camera:+" // From node_modules
   implementation "androidx.camera:camera-core:1.1.0-alpha05" // required for ImageProxy class
   implementation 'com.google.mlkit:image-labeling:17.0.4' // required for actual Image Labeling code
+
 }
