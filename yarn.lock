@@ -6652,10 +6652,10 @@ react-native-reanimated@^2.1.0:
     mockdate "^3.0.2"
     string-hash-64 "^1.0.3"
 
-react-native-vision-camera@^2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/react-native-vision-camera/-/react-native-vision-camera-2.0.0.tgz#bdd1abb19032f6154b76d868d7537935f668dc99"
-  integrity sha512-39XwbiwaOc+mYJVJJ20Cih9GqVDacHfApQGwbk9xLVraDpzQI113AsBKlENNMj0b29HxJNPj3X3HeRWEywviyQ==
+react-native-vision-camera@^2.4.2-beta.1:
+  version "2.4.2-beta.1"
+  resolved "https://registry.yarnpkg.com/react-native-vision-camera/-/react-native-vision-camera-2.4.2-beta.1.tgz#d6a7cda3f1cac5f0579a338fb438e5909eef8d6f"
+  integrity sha512-HBHR+L10c6zOB/ti11mAMkmovPmydCw63kKD9r5am9stHoshIY+EU9EqrYAECtDBhgjsWwMyfINSjGV4y4AB4w==
 
 react-native@0.63.4:
   version "0.63.4"
