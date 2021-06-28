@@ -313,7 +313,7 @@ PODS:
     - React-Core (= 0.63.4)
     - React-cxxreact (= 0.63.4)
     - React-jsi (= 0.63.4)
-  - vision-camera-image-labeler (0.1.0):
+  - vision-camera-image-labeler (0.1.1):
     - GoogleMLKit/ImageLabeling
     - React-Core
   - VisionCamera (2.0.0):
@@ -473,7 +473,7 @@ SPEC CHECKSUMS:
   React-RCTText: 5c51df3f08cb9dedc6e790161195d12bac06101c
   React-RCTVibration: ae4f914cfe8de7d4de95ae1ea6cc8f6315d73d9d
   ReactCommon: 73d79c7039f473b76db6ff7c6b159c478acbbb3b
-  vision-camera-image-labeler: 5f9afacf2863e0fb0274185cff9c27ec172d6cdd
+  vision-camera-image-labeler: df937eb6c1d58bfc03d5f1895fee02287bc634fb
   VisionCamera: 05d7d5d8df6513e61f6b6ad94d6c6befc73b780d
   Yoga: 4bd86afe9883422a7c4028c00e34790f560923d6
 
