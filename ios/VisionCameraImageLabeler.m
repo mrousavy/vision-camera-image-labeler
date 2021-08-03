@@ -6,6 +6,7 @@
 //
 
 #import <VisionCamera/FrameProcessorPlugin.h>
+#import <VisionCamera/Frame.h>
 @import Foundation;
 @import AVFoundation;
 @import MLKitVision;
@@ -32,9 +33,9 @@
   return labeler;
 }
 
-static inline id labelImage(CMSampleBufferRef buffer, NSArray* arguments) {
-  MLKVisionImage *image = [[MLKVisionImage alloc] initWithBuffer:buffer];
-  image.orientation = UIImageOrientationRight; // <-- TODO: is mirrored?
+static inline id labelImage(Frame* frame, NSArray* arguments) {
+  MLKVisionImage *image = [[MLKVisionImage alloc] initWithBuffer:frame.buffer];
+  image.orientation = frame.orientation; // <-- TODO: is mirrored?
 
   NSError* error;
   NSArray<MLKImageLabel*>* labels = [[QRCodeFrameProcessorPluginObjC labeler] resultsInImage:image error:&error];
