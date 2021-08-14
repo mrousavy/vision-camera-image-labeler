@@ -1,4 +1,5 @@
 import * as React from 'react';
+import 'react-native-reanimated';
 
 import { StyleSheet, View, ActivityIndicator } from 'react-native';
 import {
@@ -10,7 +11,7 @@ import { labelImage } from 'vision-camera-image-labeler';
 
 export default function App() {
   const [hasPermission, setHasPermission] = React.useState(false);
-  const devices = useCameraDevices('wide-angle-camera');
+  const devices = useCameraDevices();
   const device = devices.back;
 
   React.useEffect(() => {
@@ -23,7 +24,7 @@ export default function App() {
   const frameProcessor = useFrameProcessor((frame) => {
     'worklet';
     const labels = labelImage(frame);
-    console.log('Labels', labels);
+    console.log(`Labels: ${labels.join(', ')}`);
   }, []);
 
   return (
@@ -48,6 +49,7 @@ const styles = StyleSheet.create({
     flex: 1,
     alignItems: 'center',
     justifyContent: 'center',
+    backgroundColor: 'black',
   },
   box: {
     width: 60,
