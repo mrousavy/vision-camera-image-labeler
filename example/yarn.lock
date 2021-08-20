@@ -2869,11 +2869,6 @@ json5@^0.5.1:
   resolved "https://registry.yarnpkg.com/json5/-/json5-0.5.1.tgz#1eade7acc012034ad84e2396767ead9fa5495821"
   integrity sha1-Hq3nrMASA0rYTiOWdn6tn6VJWCE=
 
-json5@^0.5.1:
-  version "0.5.1"
-  resolved "https://registry.yarnpkg.com/json5/-/json5-0.5.1.tgz#1eade7acc012034ad84e2396767ead9fa5495821"
-  integrity sha1-Hq3nrMASA0rYTiOWdn6tn6VJWCE=
-
 json5@^2.1.2:
   version "2.2.0"
   resolved "https://registry.yarnpkg.com/json5/-/json5-2.2.0.tgz#2dfefe720c6ba525d9ebd909950f0515316c89a3"
@@ -3857,10 +3852,10 @@ react-native-reanimated@^2.3.0-alpha.2:
     mockdate "^3.0.2"
     string-hash-64 "^1.0.3"
 
-react-native-vision-camera@^2.5.0:
-  version "2.5.0"
-  resolved "https://registry.yarnpkg.com/react-native-vision-camera/-/react-native-vision-camera-2.5.0.tgz#185951f326e86dbf89f63b78becf84a7f846223d"
-  integrity sha512-3L0XjmAXomxEzQ6IJDwH0drsFTv66kMvPaxKLyhZJ6sfFrUhc9mNC1P3cSmpRtlckLuGRGfSGCnLpt/z6WLn9w==
+react-native-vision-camera@^2.6.1:
+  version "2.6.1"
+  resolved "https://registry.yarnpkg.com/react-native-vision-camera/-/react-native-vision-camera-2.6.1.tgz#820cc480e5c3ca88da8c7901f96878095b44bec9"
+  integrity sha512-BPzmdq9Rel1jgJ5TKG5Gv2qTQNLEHFObJtesI5fRGkzd8l3iC+2frHHRHJRwQ/LJUl8ZS1V/+XAbKRPn10e1aw==
 
 react-native@^0.64.2:
   version "0.64.2"
