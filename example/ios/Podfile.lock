@@ -364,10 +364,10 @@ PODS:
     - React-RCTVibration
     - ReactCommon/turbomodule/core
     - Yoga
-  - vision-camera-image-labeler (0.1.4):
+  - vision-camera-image-labeler (0.1.6):
     - GoogleMLKit/ImageLabeling
     - React-Core
-  - VisionCamera (2.4.2-beta.12):
+  - VisionCamera (2.5.0):
     - React
     - React-callinvoker
     - React-Core
@@ -493,10 +493,10 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   boost-for-react-native: 39c7adb57c4e60d6c5479dd8623128eb5b3f0f2c
-  DoubleConversion: cde416483dac037923206447da6e1454df403714
+  DoubleConversion: cf9b38bf0b2d048436d9a82ad2abe1404f11e7de
   FBLazyVector: e686045572151edef46010a6f819ade377dfeb4b
-  FBReactNativeSpec: f33aefd34feec90f1a8fa43ae9913bfebffd594a
-  glog: 40a13f7840415b9a77023fbcae0f1e6f43192af3
+  FBReactNativeSpec: 8e99c395656c88011230e6c3d2c6f6196d5e5804
+  glog: 73c2498ac6884b13ede40eda8228cb1eee9d9d62
   GoogleDataTransport: cd9db2180fcecd8da1b561aea31e3e56cf834aa7
   GoogleMLKit: 6ca2a10de262ee1017b52ac045e8967884ace992
   GoogleToolboxForMac: 471e0c05d39506e50e6398f46fa9a12ae0efeff9
@@ -536,8 +536,8 @@ SPEC CHECKSUMS:
   React-runtimeexecutor: a9904c6d0218fb9f8b19d6dd88607225927668f9
   ReactCommon: 149906e01aa51142707a10665185db879898e966
   RNReanimated: daebbd404c0cd9df6daa248d63dd940086bea9ff
-  vision-camera-image-labeler: 88eb3a269a2aa987b35418f2beb507ef12bd617d
-  VisionCamera: ed40e8380f2cd139ccf78bfbf9e5a98e91781033
+  vision-camera-image-labeler: 4f47e2d9f905c27a0da1a88a84266ee57d76fad4
+  VisionCamera: 55fbbd06480129be9b6f1e5bdfd262a4e52191fd
   Yoga: 575c581c63e0d35c9a83f4b46d01d63abc1100ac
 
 PODFILE CHECKSUM: 63cb2912222757611e91af6cf880da03eebd1de9
