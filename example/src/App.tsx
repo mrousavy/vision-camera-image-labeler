@@ -23,7 +23,7 @@ export default function App() {
   const frameProcessor = useFrameProcessor((frame) => {
     'worklet';
     const labels = labelImage(frame);
-    _log(`Labels: ${labels.join(', ')}`);
+    console.log(`Labels: ${labels.join(', ')}`);
   }, []);
 
   return (
