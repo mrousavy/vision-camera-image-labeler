@@ -1,41 +1,53 @@
-import * as React from 'react';
-
+import React, { useEffect, useState } from 'react';
 import { StyleSheet, View, ActivityIndicator } from 'react-native';
+import { useSharedValue } from 'react-native-reanimated';
 import {
+  Camera,
   useCameraDevices,
   useFrameProcessor,
 } from 'react-native-vision-camera';
-import { Camera } from 'react-native-vision-camera';
 import { labelImage } from 'vision-camera-image-labeler';
 
+import { Label } from './components/Label';
+
 export default function App() {
-  const [hasPermission, setHasPermission] = React.useState(false);
-  const devices = useCameraDevices('wide-angle-camera');
+  const [hasPermission, setHasPermission] = useState(false);
+  const currentLabel = useSharedValue('');
+
+  const devices = useCameraDevices();
   const device = devices.back;
 
-  React.useEffect(() => {
+  useEffect(() => {
     (async () => {
       const status = await Camera.requestCameraPermission();
       setHasPermission(status === 'authorized');
     })();
   }, []);
 
-  const frameProcessor = useFrameProcessor((frame) => {
-    'worklet';
-    const labels = labelImage(frame);
-    console.log('Labels', labels);
-  }, []);
+  const frameProcessor = useFrameProcessor(
+    (frame) => {
+      'worklet';
+      const labels = labelImage(frame);
+
+      console.log('Labels:', labels);
+      currentLabel.value = labels[0]?.label;
+    },
+    [currentLabel]
+  );
 
   return (
     <View style={styles.container}>
       {device != null && hasPermission ? (
-        <Camera
-          style={StyleSheet.absoluteFill}
-          device={device}
-          isActive={true}
-          frameProcessor={frameProcessor}
-          frameProcessorFps={5}
-        />
+        <>
+          <Camera
+            style={styles.camera}
+            device={device}
+            isActive={true}
+            frameProcessor={frameProcessor}
+            frameProcessorFps={3}
+          />
+          <Label sharedValue={currentLabel} />
+        </>
       ) : (
         <ActivityIndicator size="large" color="white" />
       )}
@@ -48,10 +60,10 @@ const styles = StyleSheet.create({
     flex: 1,
     alignItems: 'center',
     justifyContent: 'center',
+    backgroundColor: 'black',
   },
-  box: {
-    width: 60,
-    height: 60,
-    marginVertical: 20,
+  camera: {
+    flex: 1,
+    width: '100%',
   },
 });
