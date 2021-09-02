@@ -367,7 +367,7 @@ PODS:
   - vision-camera-image-labeler (0.1.6):
     - GoogleMLKit/ImageLabeling
     - React-Core
-  - VisionCamera (2.5.0):
+  - VisionCamera (2.6.1):
     - React
     - React-callinvoker
     - React-Core
@@ -537,9 +537,9 @@ SPEC CHECKSUMS:
   ReactCommon: 149906e01aa51142707a10665185db879898e966
   RNReanimated: daebbd404c0cd9df6daa248d63dd940086bea9ff
   vision-camera-image-labeler: 4f47e2d9f905c27a0da1a88a84266ee57d76fad4
-  VisionCamera: 55fbbd06480129be9b6f1e5bdfd262a4e52191fd
+  VisionCamera: dc481620431e31c1d6bbbc438d8a1d9c56f3d304
   Yoga: 575c581c63e0d35c9a83f4b46d01d63abc1100ac
 
-PODFILE CHECKSUM: 63cb2912222757611e91af6cf880da03eebd1de9
+PODFILE CHECKSUM: 0df025d87bd736e919c365abc630275c3f0800b7
 
 COCOAPODS: 1.10.2
