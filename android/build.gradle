@@ -57,5 +57,5 @@ dependencies {
     implementation "com.facebook.react:react-native:+"  // From node_modules
     api project(":react-native-vision-camera")
     implementation "androidx.camera:camera-core:1.1.0-alpha06"
-    implementation 'com.google.mlkit:image-labeling:17.0.5'
+    implementation 'com.google.mlkit:image-labeling:17.0.7'
 }
