@@ -30,6 +30,10 @@ module.exports = {
 
 > Note: You have to restart metro-bundler for changes in the `babel.config.js` file to take effect.
 
+## V2 vs V3
+
+Note: Currently this plugin only works for VisionCamera V2 since I have not dedicated any time to upgrade it to V3 yet.
+
 ## Usage
 
 ```js
