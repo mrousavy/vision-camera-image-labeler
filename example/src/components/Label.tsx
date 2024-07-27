@@ -1,6 +1,8 @@
-import React from 'react';
 import { TextInput, StyleSheet } from 'react-native';
-import Animated, { useAnimatedProps } from 'react-native-reanimated';
+import Animated, {
+  useAnimatedProps,
+  type SharedValue,
+} from 'react-native-reanimated';
 
 const AnimatedText = Animated.createAnimatedComponent(TextInput);
 Animated.addWhitelistedNativeProps({ text: true });
@@ -8,11 +10,12 @@ Animated.addWhitelistedNativeProps({ text: true });
 export const Label = ({
   sharedValue,
 }: {
-  sharedValue: Animated.SharedValue<string>;
+  sharedValue: SharedValue<string>;
 }) => {
-  const textProps = useAnimatedProps(() => ({ text: sharedValue.value }), [
-    sharedValue.value,
-  ]);
+  const textProps = useAnimatedProps(
+    () => ({ text: sharedValue.value }),
+    [sharedValue.value]
+  );
 
   return (
     <AnimatedText

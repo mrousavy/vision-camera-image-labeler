@@ -1,9 +1,9 @@
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import { StyleSheet, View, ActivityIndicator } from 'react-native';
 import { useSharedValue } from 'react-native-reanimated';
 import {
   Camera,
-  useCameraDevices,
+  useCameraDevice,
   useFrameProcessor,
 } from 'react-native-vision-camera';
 import { labelImage } from 'vision-camera-image-labeler';
@@ -14,13 +14,13 @@ export default function App() {
   const [hasPermission, setHasPermission] = useState(false);
   const currentLabel = useSharedValue('');
 
-  const devices = useCameraDevices();
-  const device = devices.back;
+  // camera device settings
+  let device = useCameraDevice('back');
 
   useEffect(() => {
     (async () => {
       const status = await Camera.requestCameraPermission();
-      setHasPermission(status === 'authorized');
+      setHasPermission(status === 'granted');
     })();
   }, []);
 
@@ -30,6 +30,7 @@ export default function App() {
       const labels = labelImage(frame);
 
       console.log('Labels:', labels);
+      // @ts-ignore
       currentLabel.value = labels[0]?.label;
     },
     [currentLabel]
@@ -44,7 +45,7 @@ export default function App() {
             device={device}
             isActive={true}
             frameProcessor={frameProcessor}
-            frameProcessorFps={3}
+            // frameProcessorFps={3}
           />
           <Label sharedValue={currentLabel} />
         </>
