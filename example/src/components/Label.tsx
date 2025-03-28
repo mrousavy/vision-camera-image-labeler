@@ -1,26 +1,27 @@
 import React from 'react';
-import { TextInput, StyleSheet } from 'react-native';
-import Animated, { useAnimatedProps } from 'react-native-reanimated';
+import {TextInput, StyleSheet} from 'react-native';
+import Animated, {
+  DerivedValue,
+  useAnimatedProps,
+} from 'react-native-reanimated';
 
+Animated.addWhitelistedNativeProps({text: true});
 const AnimatedText = Animated.createAnimatedComponent(TextInput);
-Animated.addWhitelistedNativeProps({ text: true });
 
-export const Label = ({
-  sharedValue,
-}: {
-  sharedValue: Animated.SharedValue<string>;
-}) => {
-  const textProps = useAnimatedProps(() => ({ text: sharedValue.value }), [
-    sharedValue.value,
-  ]);
+export const Label = ({text}: {text: DerivedValue<string>}) => {
+  const animatedProps = useAnimatedProps(() => {
+    return {
+      text: text.value,
+      defaultValue: text.value,
+    };
+  });
 
   return (
     <AnimatedText
       style={styles.text}
-      //@ts-expect-error native `text` prop isn't exposed in `TextInputProps`
-      animatedProps={textProps}
       editable={false}
       multiline={true}
+      animatedProps={animatedProps}
     />
   );
 };

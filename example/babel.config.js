@@ -2,7 +2,7 @@ const path = require('path');
 const pak = require('../package.json');
 
 module.exports = {
-  presets: ['module:metro-react-native-babel-preset'],
+  presets: ['module:@react-native/babel-preset'],
   plugins: [
     [
       'module-resolver',
@@ -13,11 +13,7 @@ module.exports = {
         },
       },
     ],
-    [
-      'react-native-reanimated/plugin',
-      {
-        globals: ['__labelImage'],
-      },
-    ],
+    'react-native-worklets-core/plugin',
+    'react-native-reanimated/plugin',
   ],
 };

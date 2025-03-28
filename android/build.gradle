@@ -1,31 +1,32 @@
-buildscript {
-    if (project == rootProject) {
-        repositories {
-            google()
-            jcenter()
-        }
-
-        dependencies {
-            classpath 'com.android.tools.build:gradle:4.2.1'
-        }
-    }
-}
-
-apply plugin: 'com.android.library'
-
 def safeExtGet(prop, fallback) {
     rootProject.ext.has(prop) ? rootProject.ext.get(prop) : fallback
 }
+def kotlinVersion = safeExtGet("VisionCameraFaceDetector_kotlinVersion", "2.0.0")
+
+apply plugin: "com.android.library"
+apply plugin: "kotlin-android"
+
+buildscript {
+    repositories {
+        google()
+        mavenCentral()
+    }
+
+    dependencies {
+        classpath "com.android.tools.build:gradle:7.4.2"
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:${kotlinVersion}"
+    }
+}
 
 android {
-    compileSdkVersion safeExtGet('VisionCameraImageLabeler_compileSdkVersion', 30)
-    ndkVersion "22.0.7026061"
+    buildToolsVersion = safeExtGet("VisionCameraImageLabeler_buildToolsVersion", "34.0.0")
+    ndkVersion safeExtGet("VisionCameraImageLabeler_ndkVersion", "25.1.8937393")
     defaultConfig {
-        minSdkVersion safeExtGet('VisionCameraImageLabeler_minSdkVersion', 21)
-        targetSdkVersion safeExtGet('VisionCameraImageLabeler_targetSdkVersion', 30)
+        minSdkVersion safeExtGet("VisionCameraImageLabeler_minSdkVersion", 26)
+        compileSdkVersion safeExtGet("VisionCameraImageLabeler_compileSdkVersion", 34)
+        targetSdkVersion safeExtGet("VisionCameraImageLabeler_targetSdkVersion", 34)
         versionCode 1
         versionName "1.0"
-
     }
 
     buildTypes {
@@ -34,11 +35,7 @@ android {
         }
     }
     lintOptions {
-        disable 'GradleCompatible'
-    }
-    compileOptions {
-        sourceCompatibility JavaVersion.VERSION_1_8
-        targetCompatibility JavaVersion.VERSION_1_8
+        disable "GradleCompatible"
     }
 }
 
@@ -49,13 +46,15 @@ repositories {
         url("$rootDir/../node_modules/react-native/android")
     }
     google()
-    jcenter()
+    mavenCentral()
 }
 
 dependencies {
     //noinspection GradleDynamicVersion
     implementation "com.facebook.react:react-native:+"  // From node_modules
     api project(":react-native-vision-camera")
+    implementation "androidx.annotation:annotation:1.8.0"
     implementation "androidx.camera:camera-core:1.1.0-alpha06"
-    implementation 'com.google.mlkit:image-labeling:17.0.5'
+    implementation 'com.google.mlkit:image-labeling:17.+'
+    implementation "com.google.mlkit:vision-common:17.+"
 }
