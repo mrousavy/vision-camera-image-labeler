@@ -18,6 +18,7 @@ class VisionCameraImageLabelerPlugin() : FrameProcessorPlugin() {
   override fun callback(frame: Frame, params: Map<String, Any>?): Any? {
     val mediaImage: Image? = frame.image
     if (mediaImage != null) {
+      // TODO fix 0 param for proper orientation
       val image = InputImage.fromMediaImage(mediaImage, 0)
       val task = labeler.process(image)
       try {
