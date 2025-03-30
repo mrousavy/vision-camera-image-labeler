@@ -7,9 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-
-		5E555C0D2413F4C50049A1A2 /* VisionCameraImageLabeler.m in Sources */ = {isa = PBXBuildFile; fileRef = B3E7B5891CC2AC0600A0062D /* VisionCameraImageLabeler.m */; };
-
+		65B7B26D2D9988EC004CC691 /* VisionCameraImageLabeler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B7B26C2D9988EC004CC691 /* VisionCameraImageLabeler.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,9 +24,9 @@
 
 /* Begin PBXFileReference section */
 		134814201AA4EA6300B7C361 /* libVisionCameraImageLabeler.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libVisionCameraImageLabeler.a; sourceTree = BUILT_PRODUCTS_DIR; };
-
+		65B7B26B2D9988EB004CC691 /* VisionCameraImageLabeler-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "VisionCameraImageLabeler-Bridging-Header.h"; sourceTree = "<group>"; };
+		65B7B26C2D9988EC004CC691 /* VisionCameraImageLabeler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisionCameraImageLabeler.swift; sourceTree = "<group>"; };
 		B3E7B5891CC2AC0600A0062D /* VisionCameraImageLabeler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VisionCameraImageLabeler.m; sourceTree = "<group>"; };
-
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,10 +51,10 @@
 		58B511D21A9E6C8500147676 = {
 			isa = PBXGroup;
 			children = (
-
+				65B7B26C2D9988EC004CC691 /* VisionCameraImageLabeler.swift */,
 				B3E7B5891CC2AC0600A0062D /* VisionCameraImageLabeler.m */,
-
 				134814211AA4EA7D00B7C361 /* Products */,
+				65B7B26B2D9988EB004CC691 /* VisionCameraImageLabeler-Bridging-Header.h */,
 			);
 			sourceTree = "<group>";
 		};
@@ -91,6 +89,7 @@
 				TargetAttributes = {
 					58B511DA1A9E6C8500147676 = {
 						CreatedOnToolsVersion = 6.1.1;
+						LastSwiftMigration = 1620;
 					};
 				};
 			};
@@ -117,9 +116,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-
-				B3E7B58A1CC2AC0600A0062D /* VisionCameraImageLabeler.m in Sources */,
-
+				65B7B26D2D9988EC004CC691 /* VisionCameraImageLabeler.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -222,6 +219,7 @@
 		58B511F01A9E6C8500147676 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
@@ -232,13 +230,17 @@
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = VisionCameraImageLabeler;
 				SKIP_INSTALL = YES;
-
+				SWIFT_OBJC_BRIDGING_HEADER = "VisionCameraImageLabeler-Bridging-Header.h";
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "VisionCameraImageLabeler-Swift.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 6.0;
 			};
 			name = Debug;
 		};
 		58B511F11A9E6C8500147676 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
@@ -249,7 +251,9 @@
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = VisionCameraImageLabeler;
 				SKIP_INSTALL = YES;
-
+				SWIFT_OBJC_BRIDGING_HEADER = "VisionCameraImageLabeler-Bridging-Header.h";
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "VisionCameraImageLabeler-Swift.h";
+				SWIFT_VERSION = 6.0;
 			};
 			name = Release;
 		};

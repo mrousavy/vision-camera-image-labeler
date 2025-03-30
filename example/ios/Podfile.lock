@@ -1681,9 +1681,6 @@ PODS:
     - ReactCommon/turbomodule/core
     - Yoga
   - SocketRocket (0.7.1)
-  - vision-camera-image-labeler (0.1.6):
-    - GoogleMLKit/ImageLabeling
-    - React-Core
   - VisionCamera (4.6.3):
     - VisionCamera/Core (= 4.6.3)
     - VisionCamera/FrameProcessors (= 4.6.3)
@@ -1696,6 +1693,10 @@ PODS:
   - VisionCamera/React (4.6.3):
     - React-Core
     - VisionCamera/FrameProcessors
+  - VisionCameraImageLabeler (0.1.6):
+    - GoogleMLKit/ImageLabeling
+    - React-Core
+    - VisionCamera
   - Yoga (0.0.0)
 
 DEPENDENCIES:
@@ -1765,8 +1766,8 @@ DEPENDENCIES:
   - ReactCodegen (from `build/generated/ios`)
   - ReactCommon/turbomodule/core (from `../node_modules/react-native/ReactCommon`)
   - RNReanimated (from `../node_modules/react-native-reanimated`)
-  - vision-camera-image-labeler (from `../node_modules/vision-camera-image-labeler`)
   - VisionCamera (from `../node_modules/react-native-vision-camera`)
+  - VisionCameraImageLabeler (from `../node_modules/vision-camera-image-labeler`)
   - Yoga (from `../node_modules/react-native/ReactCommon/yoga`)
 
 SPEC REPOS:
@@ -1918,10 +1919,10 @@ EXTERNAL SOURCES:
     :path: "../node_modules/react-native/ReactCommon"
   RNReanimated:
     :path: "../node_modules/react-native-reanimated"
-  vision-camera-image-labeler:
-    :path: "../node_modules/vision-camera-image-labeler"
   VisionCamera:
     :path: "../node_modules/react-native-vision-camera"
+  VisionCameraImageLabeler:
+    :path: "../node_modules/vision-camera-image-labeler"
   Yoga:
     :path: "../node_modules/react-native/ReactCommon/yoga"
 
@@ -1957,16 +1958,16 @@ SPEC CHECKSUMS:
   React-CoreModules: 385bbacfa34ac9208aa24f239a5184fa7ab1cd28
   React-cxxreact: 3e09bcdf1f86b931b5e96bf5429d7c274a0ec168
   React-debug: 2086b55a5e55fb0abae58c42b8f280ebd708c956
-  React-defaultsnativemodule: 491e2541856e3580dae7f29d80754673a2134e48
-  React-domnativemodule: 4aaed5d5eef3da7d7d49b1f2ae8f422a4d7794b7
+  React-defaultsnativemodule: ac85ea3f584aa508402544ebbb96f8095dbbf9b2
+  React-domnativemodule: 440afe80468b67462618dec536eaa83902ed547d
   React-Fabric: 5b8373d1bd34bf269b13529a0ebee0643165ccf8
   React-FabricComponents: 3f8528c3ed060464a120e161ffaef9307a88817b
   React-FabricImage: 8efa4e206b1e5cf2e8e1e48fd345619c5c0484f4
   React-featureflags: 4503c901bf16b267b689e8a1aed24e951e0b091b
-  React-featureflagsnativemodule: 415168f5d23413fd0cc55ad98c41a3f3f135b2a7
+  React-featureflagsnativemodule: a80f7cc87e369f6e43c4484c4133f1ab7f8181d8
   React-graphics: c619a6e974baf9a7dbae8442944c7b7408391d46
   React-hermes: 24bfc254f1ba83182d4936641898fe963af343fb
-  React-idlecallbacksnativemodule: 2c2e4c3f561a98c84a7a68c0d1f868b64ca5f839
+  React-idlecallbacksnativemodule: 51a6e112c0ae1667f578ad991104cdb3ce9cb572
   React-ImageManager: ba9c89729be310413c610444a658fac505253d2c
   React-jserrorhandler: bf16ea495377b22223bf93f3ef6d0711b9852613
   React-jsi: ede7e8c96f997f8772871c82688cea53c1ffb148
@@ -1975,17 +1976,17 @@ SPEC CHECKSUMS:
   React-jsitracing: f38c15aeb910bafcf3ba2e24af8c92e6af4ce1d4
   React-logger: f9d104eace4ce03d7d5ab96802069d9905082225
   React-Mapbuffer: 23ffe602d0f5ca53b861ef8534cb8c63c4479671
-  React-microtasksnativemodule: 73fdf0c53b6d50d55de2d5bd9abfb8c006b043a4
-  react-native-worklets-core: 7186c6632dc36ebec96b2e205388ea0ac224dd91
+  React-microtasksnativemodule: 258cde5410c578c4739e1d3a3bc902b7a28d4625
+  react-native-worklets-core: 13837e78b876fb75154ff3594efef190befebcf9
   React-nativeconfig: 67fa7a63ea288cb5b1d0dd2deaf240405fec164f
   React-NativeModulesApple: cbf1a34443e1f67b56344547f4b0af69e1c685ba
   React-perflogger: f02ee21d98773121d77993b3c1a8be445840fae3
   React-performancetimeline: 7021d68884291b649b4c39ecb71e0fd3a2e53a59
   React-RCTActionSheet: ad84d5a0bd1ad1782f0b78b280c6f329ad79a53a
   React-RCTAnimation: 388460f7c124c76e337c6646738a83d6ea147095
-  React-RCTAppDelegate: 4661e2a44f7ce1033bf6f373f7d5368b11f5a2be
+  React-RCTAppDelegate: 0d66f6fc0a501b9e34a8a16e9099411b082904b2
   React-RCTBlob: 07cccbb74e22ce66745358799f6ab02a5bed2993
-  React-RCTFabric: 77ebcd07a3c1f3d4c2d2f67f69033a65d16a36a8
+  React-RCTFabric: 0ea93fed54109b80f1bca063172120f07edb6516
   React-RCTImage: 8fbdae841ea1217c44f4c413bba2403134b83cd1
   React-RCTLinking: c59bf8286ba2cc327b01bb524fb9c16446dc18bc
   React-RCTNetwork: 2c137a0aaaed2cf4bb53aff82a2bb8c34f2fbeac
@@ -2004,10 +2005,10 @@ SPEC CHECKSUMS:
   React-utils: 9f9a6a31d703b136eb1614d914c10a3c96b1e6dd
   ReactCodegen: 9a99ced51aab02909c7ab5056f33dff7054305bb
   ReactCommon: 04292c6f596181ebf755e7929d96d2148542b0e8
-  RNReanimated: 77242c6d67416988a2fd9f5cf574bb3e60016362
+  RNReanimated: 3e6072b3d49d4fc687b8f1ba3022f0fdc0b43969
   SocketRocket: d4aabe649be1e368d1318fdf28a022d714d65748
-  vision-camera-image-labeler: f25d41c458a92f78b4ed081f72926be312b2caac
   VisionCamera: 88df4dae7196c93ecd331f105f0e5d7d95702cb3
+  VisionCameraImageLabeler: ce69561331d9c305df72bb90951da0aaa232ab83
   Yoga: 90d80701b27946c4b23461c00a7207f300a6ff71
 
 PODFILE CHECKSUM: 883aa7f5ceaecefc07febcda0d1b6df58459eac0

@@ -26,9 +26,7 @@ type ImageLabelerPlugin = {
  *
  * @returns {ImageLabelerPlugin} Plugin instance
  */
-function createFaceDetectorPlugin(
-
-): ImageLabelerPlugin {
+function createImageLabelerPlugin(): ImageLabelerPlugin {
   const plugin = VisionCameraProxy.initFrameProcessorPlugin('imageLabeler', {} )
 
   if ( !plugin ) {
@@ -53,6 +51,6 @@ function createFaceDetectorPlugin(
  */
 export function useImageLabeler(): ImageLabelerPlugin {
   return useMemo( () => (
-    createFaceDetectorPlugin( )
+    createImageLabelerPlugin( )
   ), [ ] )
 }
