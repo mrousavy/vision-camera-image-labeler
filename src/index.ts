@@ -1,5 +1,5 @@
-/* globals __labelImage */
-import type { Frame } from 'react-native-vision-camera';
+import { useMemo } from 'react'
+import { type Frame, VisionCameraProxy} from 'react-native-vision-camera';
 
 interface ImageLabel {
   /**
@@ -12,13 +12,45 @@ interface ImageLabel {
   confidence: number;
 }
 
+type ImageLabelerPlugin = {
+  /**
+   * Generates labels for an image
+   *
+   * @param {Frame} frame Frame to generate labels
+   */
+  labelImage: ( frame: Frame ) => ImageLabel[]
+}
+
 /**
- * Returns an array of matching `ImageLabel`s for the given frame.
+ * Create a new instance of image labeler plugin
  *
- * This algorithm executes within **~60ms**, so a frameRate of **16 FPS** perfectly allows the algorithm to run without dropping a frame. Anything higher might make video recording stutter, but works too.
+ * @returns {ImageLabelerPlugin} Plugin instance
  */
-export function labelImage(frame: Frame): ImageLabel[] {
-  'worklet';
-  // @ts-expect-error Frame Processors are not typed.
-  return __labelImage(frame);
+function createImageLabelerPlugin(): ImageLabelerPlugin {
+  const plugin = VisionCameraProxy.initFrameProcessorPlugin('imageLabeler', {} )
+
+  if ( !plugin ) {
+    throw new Error( 'Failed to load Frame Processor Plugin "imageLabeler"!' )
+  }
+
+  return {
+    labelImage: (
+      frame: Frame
+    ): ImageLabel[] => {
+      'worklet'
+      // @ts-ignore
+      return plugin.call( frame ) as Face[]
+    }
+  }
+}
+/**
+ * Use an instance of image labeler plugin.
+ *
+ * @returns {ImageLabelerPlugin} Memoized plugin instance that will be
+ * destroyed once the component using `useFaceDetector()` unmounts.
+ */
+export function useImageLabeler(): ImageLabelerPlugin {
+  return useMemo( () => (
+    createImageLabelerPlugin( )
+  ), [ ] )
 }

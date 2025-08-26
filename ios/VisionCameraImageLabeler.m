@@ -1,51 +1,24 @@
-//
-//  VisionCameraImageLabeler.m
-//  VisionCameraExample
-//
-//  Created by Marc Rousavy on 06.05.21.
-//
-
+#import <Foundation/Foundation.h>
 #import <VisionCamera/FrameProcessorPlugin.h>
-#import <VisionCamera/Frame.h>
-#import <MLKit.h>
+#import <VisionCamera/FrameProcessorPluginRegistry.h>
 
-// Example for an Objective-C Frame Processor plugin
+#if defined __has_include && __has_include("VisionCameraImageLabeler-Swift.h")
+#import "VisionCameraImageLabeler-Swift.h"
+#else
+#import "VisionCameraImageLabeler/VisionCameraImageLabeler-Swift.h"
+#endif
 
-@interface QRCodeFrameProcessorPluginObjC : NSObject
+// This macro didn't properly register the frame processor plugin in the registry
+// VISION_EXPORT_SWIFT_FRAME_PROCESSOR(VisionCameraImageLabeler, imageLabeler)
 
-+ (MLKImageLabeler*) labeler;
-
+@interface VisionCameraImageLabeler (FrameProcessorPluginLoader)
 @end
 
-@implementation QRCodeFrameProcessorPluginObjC
-
-+ (MLKImageLabeler*) labeler {
-  static MLKImageLabeler* labeler = nil;
-  if (labeler == nil) {
-    MLKImageLabelerOptions* options = [[MLKImageLabelerOptions alloc] init];
-    labeler = [MLKImageLabeler imageLabelerWithOptions:options];
-  }
-  return labeler;
+@implementation VisionCameraImageLabeler (FrameProcessorPluginLoader)
++ (void) load {
+  [FrameProcessorPluginRegistry addFrameProcessorPlugin:@"imageLabeler"
+    withInitializer:^FrameProcessorPlugin*(VisionCameraProxyHolder* proxy, NSDictionary* options) {
+    return [[VisionCameraImageLabeler alloc] initWithProxy:proxy withOptions:options];
+  }];
 }
-
-static inline id labelImage(Frame* frame, NSArray* arguments) {
-  MLKVisionImage *image = [[MLKVisionImage alloc] initWithBuffer:frame.buffer];
-  image.orientation = frame.orientation; // <-- TODO: is mirrored?
-
-  NSError* error;
-  NSArray<MLKImageLabel*>* labels = [[QRCodeFrameProcessorPluginObjC labeler] resultsInImage:image error:&error];
-
-  NSMutableArray* results = [NSMutableArray arrayWithCapacity:labels.count];
-  for (MLKImageLabel* label in labels) {
-    [results addObject:@{
-      @"label": label.text,
-      @"confidence": [NSNumber numberWithFloat:label.confidence]
-    }];
-  }
-
-  return results;
-}
-
-VISION_EXPORT_FRAME_PROCESSOR(labelImage)
-
 @end
